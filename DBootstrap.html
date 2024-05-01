@@ -4,9 +4,57 @@
     <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DBootstrap Documentation</title>
+    <title>Dutchie Packages Documentation</title>
 </head>
 <body>
     <script src="jquery-3.7.1.js"></script>
+    
+    <header>
+        <div id="headerContent"></div>
+        <script>
+            $('#headerContent').load('./header.html');
+        </script>
+    </header>
+
+
+    <main>   
+        <div>
+            <a href="index.html">Back</a>
+            </div>
+
+            <div id="imageContainer">
+            <div id="packageIconImg">
+            <img src="Icons/DBootstrapIcon_128.png" width="48" height="48"/>
+            </div>
+
+            <div id="packageHeader">
+                <h1>DBootstrap</h1>
+                </div>
+            </div>
+        </div>
+        <div id="packageDescription">
+                The DBootstrap package provides all the functionality to launch a game with functions to load and close scenes using Unity's Addressable package. 
+            </div>
+            <div id="howToHeader">
+                <h2>How to use</h2>
+            </div>
+            <div style="width: 80%; padding-left: 10%; text-align: center;">
+                <ol>
+                <li>Drag the 'Bootstrap' prefab from the Prefabs folder into the Scene.</li>
+                <li>Create a SceneData Scriptable Object in the Project folder by Right Clicking and selecting 'DBootStrap -> SceneData.</li>
+                <li>Add the created SceneData to the Bootstrap Component in the Scene.</li>
+                <li>Populate the SceneData with the Scene Levels as you create them.</li>
+            </ol>
+            </div>
+    </main>
+
+
+    
+        <div id="newFooter"></div>
+        <script>
+            $('#newFooter').load('./footer.html');
+        </script>
+    
+    
 </body>
 </html>

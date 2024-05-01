@@ -8,7 +8,30 @@
 </head>
 <body>
     <script src="jquery-3.7.1.js"></script>
-    <div id="contents"></div>
-    $('#content').load('header.html');
+    
+    <header>
+        <div id="headerContent"></div>
+        <script>
+            $('#headerContent').load('./header.html');
+        </script>
+    </header>
+
+
+    <main>
+        <div>
+            <ul id="indexLinkList">
+                <li><a href="DBootstrap.html">DBootstrap</a></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="footerContent"></div>
+        <script>
+            $('#footerContent').load('./footer.html');
+        </script>
+    </footer>
+    
 </body>
 </html>
