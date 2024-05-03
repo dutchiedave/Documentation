@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutchie Packages Documentation</title>
+
+    <link type="text/css" rel="stylesheet" href="Scripts/lightGallery-master/dist/css/lightgallery-bundle.css" />
+</head>
+<body>
+    <script src="Scripts/lightGallery-master/dist/lightgallery.umd.js"></script>
+    
+
+    <!-- lightgallery plugins -->
+    <script src="Scripts/lightGallery-master/dist/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/zoom/lg-zoom.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/comment/lg-comment.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/fullscreen/lg-fullscreen.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/hash/lg-hash.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/pager/lg-pager.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/relativeCaption/lg-relative-caption.umd.js"></script>
+    <script src="Scripts/lightGallery-master/dist/plugins/video/lg-video.umd.js"></script>
+
+
+    <script src="jquery-3.7.1.js"></script>
+    
+    <header>
+        <div id="headerContent"></div>
+        <script>
+            $('#headerContent').load('./header.html');
+        </script>
+    </header>
+
+
+    <main>   
+        <div>
+            <a href="index.html">Back</a>
+            </div>
+
+            <div id="imageContainer">
+            <div id="packageIconImg">
+            <img src="Icons/DBootstrapIcon_128.png" width="48" height="48"/>
+            </div>
+
+            <div id="packageHeader">
+                <h1>DBootstrap</h1>
+                </div>
+            </div>
+        </div>
+        <div id="packageDescription">
+                The DBootstrap package provides all the functionality to launch a game with functions to load and close scenes using Unity's Addressable package. 
+            </div>
+            <div id="howToHeader">
+                <h2>How to use</h2>
+            </div>
+            <div id="instructions">
+
+                <div id="lightgallery" class="lightgalleryclass">
+                    
+                           <a class="lightboxImage" href="Images/img1.jpg" data-lg-size="1600-2400">
+                            1. Drag the 'Bootstrap' prefab from the Prefabs folder into the Scene.
+                                <img alt="Drag the 'Bootstrap' prefab from the Prefabs folder into the Scene." src="Images/img1Thumbnail.png"></a>
+                            
+                   
+                    <a class="lightboxImage" href="Images/img2.jpg" data-lg-size="1024-800">
+                        2. Create a SceneData Scriptable Object in the Project folder by Right Clicking and selecting 'DBootStrap -> SceneData.
+                        <img alt="Create a SceneData Scriptable Object in the Project folder by Right Clicking and selecting 'DBootStrap -> SceneData." src="Images/img2Thumbnail.png"></a>
+                        
+
+                          
+<a class="lightboxImage" 
+data-lg-size="1280-720"
+data-video='{"source": [{"src":"Images/DBootstrap/DBootstrapVideo1.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}'
+data-poster="Images/img1.jpg"
+data-sub-html="<h4>'Add the created SceneData to the Bootstrap Component in the Scene.</h4>">
+3. Add the created SceneData to the Bootstrap Component in the Scene.
+<img
+    width="50"
+    height="30"
+    class="img-responsive"
+    src="Images/img1.jpg"
+/>
+</a>        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--
+                <ol>
+                <li>Drag the 'Bootstrap' prefab from the Prefabs folder into the Scene.
+                    <div id="lightgallery">
+                        <a href="Images/img1.jpg" data-lg-size="1600-2400">
+                            <img alt="Drag the 'Bootstrap' prefab from the Prefabs folder into the Scene." src="Images/img1Thumbnail.png"></a>
+                        <a href="Images/img2.jpg" data-lg-size="1024-800">
+                            <img alt="Create a SceneData Scriptable Object in the Project folder by Right Clicking and selecting 'DBootStrap -> SceneData." src="Images/img2Thumbnail.png"></a>
+                              
+    <a
+    data-lg-size="1280-720"
+    data-video='{"source": [{"src":"Images/DBootstrap/DBootstrapVideo1.mp4", "type":"video/mp4"}], "tracks": [{"src": "{/videos/title.txt", "kind":"captions", "srclang": "en", "label": "English", "default": "true"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}'
+    data-poster="Images/img1.jpg"
+    data-sub-html="<h4>'Add the created SceneData to the Bootstrap Component in the Scene.</h4>"
+>
+    <img
+        width="300"
+        height="100"
+        class="img-responsive"
+        src="Images/img1.jpg"
+    />
+</a>          
+
+                    </div>
+                </li>
+                <li>Create a SceneData Scriptable Object in the Project folder by Right Clicking and selecting 'DBootStrap -> SceneData.</li>
+                <li>Add the created SceneData to the Bootstrap Component in the Scene.</li>
+                <li>Populate the SceneData with the Scene Levels as you create them.</li>
+            </ol>
+            -->
+            </div>
+            
+            
+    </main>
+
+
+    
+        <div id="newFooter"></div>
+        <script>
+            $('#newFooter').load('./footer.html');
+        </script>
+    
+     <!-- lightgallery initialization -->
+     <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery'), {
+            plugins: [lgZoom, lgThumbnail, lgComment, lgFullscreen,  lgHash, lgPager,lgVideo],
+            licenseKey: '0000-0000-000-0000',
+            speed: 500,
+            // ... other settings
+        });
+    </script>
+
+
+    <!-- End lightgallery -->
+    
+</body>
+</html>

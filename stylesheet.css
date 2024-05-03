@@ -195,3 +195,43 @@ img {
     align-items: center;
     justify-content: center
   }
+.lightgalleryclass{
+    display: grid;
+    text-align: left;
+}
+  .lightboxImage {
+	padding-top: 0.65rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.2em;
+	border-radius: 1.0rem;
+	background: rgb(43, 8, 245);
+    font-size: 1.5rem;
+    box-shadow: 4px 4px rgb(20, 3, 119);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-family: ubuntu;
+    background: linear-gradient(0deg, rgb(24, 0, 122) 0%,
+     rgba(42, 0, 212) 5%,
+      rgb(42, 0, 212) 50%,
+       rgba(42, 0, 212) 90%,
+        rgb(77, 32, 255) 100%);  
+        margin-bottom: 1em;
+
+}
+
+.lightboxImage:link,
+.lightboxImage:hover,
+.lightboxImage:active,
+.lightboxImage:visited
+{
+    text-decoration: none;
+    color: #FFF;   
+    
+    
+}
+
+#instructions{
+    width: 80%; 
+    padding-left: 10%; 
+    text-align: center;
+}
