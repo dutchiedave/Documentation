@@ -1,0 +1,19 @@
+
+.form-select {
+    width: 18em;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(28, 1, 149) !important;
+    color: rgba(255, 255, 255, 0.777) !important;
+  }
+  .dropdown-menu {   
+    background-color: rgb(149, 1, 1) !important;
+    color: rgba(255, 255, 255, 0.777) !important;
+
+    --bs-dropdown-bg: rgb(149, 1, 1) !important;
+  }
+
+  .form-select .dropdown-menu.open{
+    background-color: rgb(149, 1, 1) !important;
+    color: rgba(94, 11, 11, 0.777) !important;
+  }
